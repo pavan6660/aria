@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test1(failed)">
-    <parameter name="abc" value="chrome"/>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="pavan.parlleltesting">
+      <class name="pavan.windowhandles">
         <methods>
-          <include name="login_TestCase"/>
-          <include name="launchingApp"/>
+          <include name="multitabs"/>
         </methods>
-      </class> <!-- pavan.parlleltesting -->
+      </class> <!-- pavan.windowhandles -->
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test name="Firefox Test(failed)">
-    <parameter name="abc" value="Firefox"/>
-    <classes>
-      <class name="pavan.parlleltesting">
-        <methods>
-          <include name="login_TestCase"/>
-          <include name="launchingApp"/>
-        </methods>
-      </class> <!-- pavan.parlleltesting -->
-    </classes>
-  </test> <!-- Firefox Test(failed) -->
-  <test name="Test(failed)">
-    <parameter name="abc" value="IE"/>
-    <classes>
-      <class name="pavan.parlleltesting">
-        <methods>
-          <include name="login_TestCase"/>
-          <include name="launchingApp"/>
-        </methods>
-      </class> <!-- pavan.parlleltesting -->
-    </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

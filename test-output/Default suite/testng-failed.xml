@@ -3,12 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pavan.parlleltesting">
+      <class name="pavan.windowhandles">
         <methods>
-          <include name="login_TestCase"/>
-          <include name="launchingApp"/>
+          <include name="multitabs"/>
         </methods>
-      </class> <!-- pavan.parlleltesting -->
+      </class> <!-- pavan.windowhandles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
